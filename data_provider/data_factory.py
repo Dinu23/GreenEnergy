@@ -1,3 +1,4 @@
+import os
 from data_provider.GreenEnergyDataset import GreenEnergyDataSet
 from torch.utils.data import DataLoader
 
@@ -17,7 +18,10 @@ def data_provider(args, flag):
         root_path=args.root_path,
         flag=flag,
         size=[args.seq_len, args.label_len, args.pred_len],
-        freq=freq
+        freq=freq,
+        use_weights=args.use_weights,
+        weights_path=os.path.join(args.root_path,f"weights/weights_{args.seq_len}_{args.label_len}_{args.pred_len}.npy"),
+        load_weights=args.load_weights
     )
     print(flag, len(data_set))
     data_loader = DataLoader(

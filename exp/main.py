@@ -26,7 +26,7 @@ import numpy as np
 warnings.filterwarnings('ignore')
 
 def weighted_loss(y_predicted, y_true, weights):
-    unweighted_loss = torch.mean((y_true - y_predicted)**2,axis=0)
+    unweighted_loss = torch.mean((y_true - y_predicted)**2,axis=1)
     loss = torch.mean(weights * unweighted_loss)
     return loss
 
@@ -72,7 +72,7 @@ class My_Exp_Main(Exp_Basic):
         else:
             outputs = _run_model()
 
-        f_dim = -1 if self.args.features == 'MS' else 0
+        f_dim = 0
         outputs = outputs[:, -self.args.pred_len:, f_dim:]
         batch_y = batch_y[:, -self.args.pred_len:, f_dim:].to(self.device)
 
@@ -82,10 +82,9 @@ class My_Exp_Main(Exp_Basic):
         total_loss = []
         self.model.eval()
         with torch.no_grad():
-            for i, (batch_x, batch_y, batch_x_mark, batch_y_mark) in enumerate(vali_loader):
+            for i, (batch_x, batch_y, batch_x_mark, batch_y_mark, batch_weights) in enumerate(vali_loader):
                 batch_x = batch_x.float().to(self.device)
                 batch_y = batch_y.float()
-                weights = np.ones_like(batch_x[0])
 
                 batch_x_mark = batch_x_mark.float().to(self.device)
                 batch_y_mark = batch_y_mark.float().to(self.device)
@@ -95,7 +94,7 @@ class My_Exp_Main(Exp_Basic):
                 pred = outputs.detach().cpu()
                 true = batch_y.detach().cpu()
 
-                loss = criterion(pred, true,weights)
+                loss = criterion(pred, true, batch_weights)
 
                 total_loss.append(loss)
         total_loss = np.average(total_loss)
@@ -106,11 +105,6 @@ class My_Exp_Main(Exp_Basic):
         train_data, train_loader = self._get_data(flag='train')
         vali_data, vali_loader = self._get_data(flag='val')
         test_data, test_loader = self._get_data(flag='test')
-        if(self.args.use_weights == 1):
-            if(self.args.load_weights == 1):
-                all_weights = load_weights(os.path.join(self.args.root_path,f"weights/weights_{self.args.seq_len}_{self.args.label_len}_{self.args.pred_len}.npy"))
-            else:
-                all_weights = compute_weights(train_data)
         path = os.path.join(self.args.checkpoints, setting)
         if not os.path.exists(path):
             os.makedirs(path)
@@ -133,7 +127,7 @@ class My_Exp_Main(Exp_Basic):
 
             self.model.train()
             epoch_time = time.time()
-            for i, (batch_x, batch_y, batch_x_mark, batch_y_mark) in enumerate(train_loader):
+            for i, (batch_x, batch_y, batch_x_mark, batch_y_mark, batch_weights) in enumerate(train_loader):
                 iter_count += 1
                 model_optim.zero_grad()
                 batch_x = batch_x.float().to(self.device)
@@ -141,14 +135,11 @@ class My_Exp_Main(Exp_Basic):
                 batch_y = batch_y.float().to(self.device)
                 batch_x_mark = batch_x_mark.float().to(self.device)
                 batch_y_mark = batch_y_mark.float().to(self.device)
-
+                batch_weights = batch_weights.float().to(self.device)
                 outputs, batch_y = self._predict(batch_x, batch_y, batch_x_mark, batch_y_mark)
-                if(self.args.use_weights == 1):
-                    weights = 100*all_weights[i]
-                else:
-                    np.ones_like(batch_x[0])
+            
 
-                loss = criterion(outputs, batch_y,weights)
+                loss = criterion(outputs, batch_y, batch_weights)
                 train_loss.append(loss.item())
 
                 if (i + 1) % 100 == 0:
@@ -200,7 +191,7 @@ class My_Exp_Main(Exp_Basic):
 
         self.model.eval()
         with torch.no_grad():
-            for i, (batch_x, batch_y, batch_x_mark, batch_y_mark) in enumerate(test_loader):
+            for i, (batch_x, batch_y, batch_x_mark, batch_y_mark, batch_weights) in enumerate(test_loader):
                 batch_x = batch_x.float().to(self.device)
                 batch_y = batch_y.float().to(self.device)
 

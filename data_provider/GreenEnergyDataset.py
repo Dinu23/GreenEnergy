@@ -5,11 +5,13 @@ from sklearn.preprocessing import StandardScaler
 from utils.timefeatures import time_features
 import pandas as pd
 
+from utils.weights import compute_weights, load_weights
+
 
 class GreenEnergyDataSet(Dataset):
     def __init__(self, root_path, flag='train', size=None,
                 data_path='green.csv',external_path='weather.csv',
-                scale=True, external_var = [], freq='h'):
+                scale=True, external_var = [], freq='h',use_weights=True, load_weights = True, weights_path=""):
         # size [seq_len, label_len, pred_len]
         # info
         print(size)
@@ -37,6 +39,9 @@ class GreenEnergyDataSet(Dataset):
         self.external_var = external_var
         if("time" not in external_var ):
             self.external_var.append("time")
+        self.use_weights= use_weights
+        self.load_weights = load_weights
+        self.weights_path = weights_path
         self.__read_data__()
 
     def __read_data__(self):
@@ -76,7 +81,12 @@ class GreenEnergyDataSet(Dataset):
         else:
              self.data_y = data[border1:border2]
         self.data_stamp = data_stamp
-  
+        if(self.set_type == 0 and self.use_weights):
+            if(self.load_weights):
+                self.weights = 100*load_weights(self.weights_path)
+            else:
+                self.weights = 100*compute_weights(self.data_y,self.seq_len,self.pred_len)
+            
         print(self.data_x.shape)
         print(self.data_y.shape)
 
@@ -90,8 +100,10 @@ class GreenEnergyDataSet(Dataset):
         seq_y = self.data_y[r_begin:r_end]
         seq_x_mark = self.data_stamp[s_begin:s_end]
         seq_y_mark = self.data_stamp[r_begin:r_end]
-        return seq_x, seq_y, seq_x_mark, seq_y_mark
-    
+        if(self.set_type == 0 and self.use_weights):
+            return seq_x, seq_y, seq_x_mark, seq_y_mark, self.weights[index]
+        else:
+            return seq_x, seq_y, seq_x_mark, seq_y_mark, np.ones_like(seq_x[0])
 
     def __len__(self):
         return len(self.data_x) - self.seq_len - self.pred_len + 1
