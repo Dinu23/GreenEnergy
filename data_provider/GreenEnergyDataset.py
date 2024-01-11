@@ -11,7 +11,8 @@ from utils.weights import compute_weights, load_weights
 class GreenEnergyDataSet(Dataset):
     def __init__(self, root_path, flag='train', size=None,
                 data_path='green.csv',external_path='weather.csv',
-                scale=True, external_var = [], freq='h',use_weights=True, load_weights = True, weights_path=""):
+                scale=True, external_var = [], freq='h',use_weights=True, load_weights = True, weights_path="", 
+                future = True):
         # size [seq_len, label_len, pred_len]
         # info
         print(size)
@@ -32,12 +33,12 @@ class GreenEnergyDataSet(Dataset):
         self.scale = scale
         # self.timeenc = timeenc
         self.freq = freq
-
+        self.future = future
         self.root_path = root_path
         self.data_path = data_path
         self.external_path = external_path
-        self.external_var = external_var
-        if("time" not in external_var ):
+        self.external_var = [x for x in external_var]
+        if("time" not in self.external_var ):
             self.external_var.append("time")
         self.use_weights= use_weights
         self.load_weights = load_weights
@@ -54,14 +55,24 @@ class GreenEnergyDataSet(Dataset):
         df_weather_raw = df_weather_raw[self.external_var]
 
         df_raw = df_green_raw.merge(df_weather_raw, on="time")
+
+        if(self.future == 1):
+            print("future")
+            for var in self.external_var:
+                if(var != "time"):
+                    df_raw[var] = df_raw[var].shift(periods=-self.seq_len)
+        
+
         size = df_raw.shape[0]
         print(size)
-        border1s = [0, size//2 - self.seq_len, 3*size//4 - self.seq_len]
-        border2s = [size//2, 3*size//4, size]
+        border1s = [0, 7*size//10 - self.seq_len,85*size//100 - self.seq_len]
+        border2s = [7*size//10, 85*size//100, size]
         border1 = border1s[self.set_type]
         border2 = border2s[self.set_type]
-     
+
         cols_data = df_raw.columns[1:]
+        
+
         df_data = df_raw[cols_data]
         
         if self.scale:
@@ -76,10 +87,7 @@ class GreenEnergyDataSet(Dataset):
         data_stamp = time_features(pd.to_datetime(df_stamp['time'].values), freq=self.freq)
         data_stamp = data_stamp.transpose(1, 0)
         self.data_x = data[border1:border2]
-        if(len(self.external_var)-1 >0):
-            self.data_y = self.data_x[:,:-(len(self.external_var)-1)]
-        else:
-             self.data_y = data[border1:border2]
+        self.data_y = data[border1:border2]
         self.data_stamp = data_stamp
         if(self.set_type == 0 and self.use_weights):
             if(self.load_weights):
@@ -100,11 +108,16 @@ class GreenEnergyDataSet(Dataset):
         seq_y = self.data_y[r_begin:r_end]
         seq_x_mark = self.data_stamp[s_begin:s_end]
         seq_y_mark = self.data_stamp[r_begin:r_end]
+        N = len(self.external_var)-1
         if(self.set_type == 0 and self.use_weights):
-            return seq_x, seq_y, seq_x_mark, seq_y_mark, self.weights[index]
+            weights = self.weights[index]
         else:
-            return seq_x, seq_y, seq_x_mark, seq_y_mark, np.ones_like(seq_x[0])
+            weights = np.ones(len(seq_x[0])-N)
 
+        weights = np.pad(weights,(0,N),"constant",constant_values=0)
+
+        return seq_x, seq_y, seq_x_mark, seq_y_mark, weights
+    
     def __len__(self):
         return len(self.data_x) - self.seq_len - self.pred_len + 1
 

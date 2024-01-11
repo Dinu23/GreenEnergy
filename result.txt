@@ -1,3 +1,1134 @@
-AutoFormer_sl96_ll48_pl96_w1_ev_it0  
-mse:0.7314190864562988, mae:0.6363826394081116
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_it0  
+mse:0.7123950719833374, mae:0.6178920269012451
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_it1  
+mse:0.7919954061508179, mae:0.6563505530357361
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_it2  
+mse:0.732081949710846, mae:0.6316558122634888
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_it0  
+mse:0.7508450746536255, mae:0.656230092048645
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_it1  
+mse:0.7757518887519836, mae:0.6668621301651001
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_it2  
+mse:0.8267703056335449, mae:0.6771852374076843
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_it0  
+mse:0.7256073951721191, mae:0.62575763463974
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_it1  
+mse:0.7803286910057068, mae:0.6521629691123962
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_it2  
+mse:0.7605419158935547, mae:0.639411985874176
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_it0  
+mse:0.7389053106307983, mae:0.6394046545028687
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_it1  
+mse:0.7184209823608398, mae:0.6297497153282166
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_it2  
+mse:0.7516862154006958, mae:0.6474090814590454
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_it0  
+mse:0.7262970805168152, mae:0.6266400218009949
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_it1  
+mse:0.7111941576004028, mae:0.6171504855155945
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_it2  
+mse:0.7296353578567505, mae:0.6253096461296082
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_it0  
+mse:0.8137102723121643, mae:0.6760451793670654
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_it1  
+mse:0.8184172511100769, mae:0.682127058506012
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_it2  
+mse:0.9353214502334595, mae:0.7241592407226562
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_it0  
+mse:0.7121033668518066, mae:0.6171408891677856
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_it1  
+mse:0.6999768614768982, mae:0.6072872877120972
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_it2  
+mse:0.7293280959129333, mae:0.6330776214599609
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_it0  
+mse:0.7487317323684692, mae:0.6382356882095337
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_it1  
+mse:0.7221865057945251, mae:0.6335969567298889
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_it2  
+mse:0.754932701587677, mae:0.6538282036781311
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_it0  
+mse:0.7072792649269104, mae:0.6083154678344727
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_it1  
+mse:0.6982852220535278, mae:0.6098310351371765
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_it2  
+mse:0.7359355092048645, mae:0.630919337272644
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_it0  
+mse:0.7710105180740356, mae:0.6681906580924988
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_it1  
+mse:0.7770116925239563, mae:0.6578623652458191
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_it2  
+mse:0.7223280072212219, mae:0.6337199211120605
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_it0  
+mse:0.7145201563835144, mae:0.6140261292457581
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_it1  
+mse:0.756521463394165, mae:0.6343662738800049
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_it2  
+mse:0.6800041198730469, mae:0.6034905910491943
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_it0  
+mse:0.7793927788734436, mae:0.662369430065155
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_it1  
+mse:0.8017480373382568, mae:0.6664701104164124
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_it2  
+mse:0.750813901424408, mae:0.6462243795394897
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_it0  
+mse:0.7584929466247559, mae:0.6382307410240173
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_it1  
+mse:0.7911181449890137, mae:0.6420696377754211
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_it2  
+mse:0.6986679434776306, mae:0.6048451662063599
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_it0  
+mse:0.781363308429718, mae:0.6573324203491211
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_it1  
+mse:0.7776752710342407, mae:0.6610432267189026
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_it2  
+mse:0.7106067538261414, mae:0.6238453984260559
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_rain_1h_it0  
+mse:0.76045161485672, mae:0.6365686655044556
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_rain_1h_it1  
+mse:0.7147776484489441, mae:0.6174365878105164
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_rain_1h_it2  
+mse:0.7621414661407471, mae:0.6412255764007568
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_rain_1h_it0  
+mse:0.7990796566009521, mae:0.6602117419242859
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_rain_1h_it1  
+mse:0.7334935069084167, mae:0.6349031925201416
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_rain_1h_it2  
+mse:0.72449791431427, mae:0.6320722103118896
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_rain_1h_it0  
+mse:0.7145828008651733, mae:0.6210469603538513
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_rain_1h_it1  
+mse:0.7287938594818115, mae:0.6195961833000183
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_rain_1h_it2  
+mse:0.7256911993026733, mae:0.6219088435173035
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_rain_1h_it0  
+mse:0.7689990997314453, mae:0.6453074812889099
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_rain_1h_it1  
+mse:0.7787795066833496, mae:0.6497966647148132
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_rain_1h_it2  
+mse:0.8590908050537109, mae:0.7082906365394592
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_clouds_all_it0  
+mse:0.7624338269233704, mae:0.645421028137207
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_clouds_all_it1  
+mse:0.717971682548523, mae:0.6176059246063232
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_clouds_all_it2  
+mse:0.7275998592376709, mae:0.6309517621994019
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_clouds_all_it0  
+mse:0.7826215028762817, mae:0.6757367849349976
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_clouds_all_it1  
+mse:0.829615592956543, mae:0.6725800037384033
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_clouds_all_it2  
+mse:0.7677583694458008, mae:0.6549714207649231
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_clouds_all_it0  
+mse:0.7427408695220947, mae:0.6278859972953796
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_clouds_all_it1  
+mse:0.7932149171829224, mae:0.6572942733764648
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_clouds_all_it2  
+mse:0.7667813897132874, mae:0.6394803524017334
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_clouds_all_it0  
+mse:0.7700342535972595, mae:0.6560754179954529
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_clouds_all_it1  
+mse:0.767707347869873, mae:0.6640613675117493
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_clouds_all_it2  
+mse:0.7907108068466187, mae:0.6623262166976929
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.7165670990943909, mae:0.6190916895866394
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.7026740908622742, mae:0.601607620716095
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.7036299109458923, mae:0.6071586608886719
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.7232536673545837, mae:0.6169487237930298
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.7065240144729614, mae:0.6142911314964294
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.725327730178833, mae:0.6371858716011047
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.6931338310241699, mae:0.5937557816505432
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.746601939201355, mae:0.6387706398963928
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.6868465542793274, mae:0.5938608050346375
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.6787413358688354, mae:0.5987879037857056
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.7319334745407104, mae:0.6305676698684692
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.728850245475769, mae:0.6406425833702087
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_rain_1h_clouds_all_it0  
+mse:0.7261995673179626, mae:0.6187205910682678
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_rain_1h_clouds_all_it1  
+mse:0.7073071002960205, mae:0.6082766652107239
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_rain_1h_clouds_all_it2  
+mse:0.7041542530059814, mae:0.6059510111808777
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_rain_1h_clouds_all_it0  
+mse:0.6952033638954163, mae:0.6077868342399597
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_rain_1h_clouds_all_it1  
+mse:0.7361043095588684, mae:0.6358920931816101
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_rain_1h_clouds_all_it2  
+mse:0.7516847848892212, mae:0.6415125131607056
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_rain_1h_clouds_all_it0  
+mse:0.7419726848602295, mae:0.6330402493476868
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_rain_1h_clouds_all_it1  
+mse:0.827765166759491, mae:0.66057288646698
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_rain_1h_clouds_all_it2  
+mse:0.6895920634269714, mae:0.6009246110916138
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_rain_1h_clouds_all_it0  
+mse:0.675538182258606, mae:0.6034161448478699
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_rain_1h_clouds_all_it1  
+mse:0.8197018504142761, mae:0.6730161309242249
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_rain_1h_clouds_all_it2  
+mse:0.7796980142593384, mae:0.6593834161758423
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_rain_1h_clouds_all_it0  
+mse:0.7032269239425659, mae:0.6081457138061523
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_rain_1h_clouds_all_it1  
+mse:0.7227829098701477, mae:0.6234295964241028
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_rain_1h_clouds_all_it2  
+mse:0.7544481754302979, mae:0.6318209171295166
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_rain_1h_clouds_all_it0  
+mse:0.7091783881187439, mae:0.6053846478462219
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_rain_1h_clouds_all_it1  
+mse:0.7276811003684998, mae:0.6303737163543701
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_rain_1h_clouds_all_it2  
+mse:0.8571097254753113, mae:0.6846203207969666
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_rain_1h_clouds_all_it0  
+mse:0.7385634779930115, mae:0.6274082064628601
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_rain_1h_clouds_all_it1  
+mse:0.7276862263679504, mae:0.6181322336196899
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_rain_1h_clouds_all_it2  
+mse:0.7182996273040771, mae:0.6187834739685059
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_rain_1h_clouds_all_it0  
+mse:0.6853351593017578, mae:0.6016660928726196
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_rain_1h_clouds_all_it1  
+mse:0.739883542060852, mae:0.6432331204414368
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_rain_1h_clouds_all_it2  
+mse:0.7646369934082031, mae:0.6500371694564819
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_clouds_all_it0  
+mse:0.6828036904335022, mae:0.5956899523735046
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_clouds_all_it1  
+mse:0.7183665037155151, mae:0.612601637840271
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_clouds_all_it2  
+mse:0.7193108797073364, mae:0.6207839250564575
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_clouds_all_it0  
+mse:0.6841380000114441, mae:0.5988754034042358
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_clouds_all_it1  
+mse:0.7108259797096252, mae:0.614656388759613
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_clouds_all_it2  
+mse:0.7704917788505554, mae:0.6531301736831665
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_clouds_all_it0  
+mse:0.7222597002983093, mae:0.618219792842865
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_clouds_all_it1  
+mse:0.7202193140983582, mae:0.6261916756629944
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_clouds_all_it2  
+mse:0.7080658078193665, mae:0.6060156226158142
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_clouds_all_it0  
+mse:0.6789083480834961, mae:0.6007552742958069
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_clouds_all_it1  
+mse:0.7142046689987183, mae:0.6221186518669128
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_clouds_all_it2  
+mse:0.8155384063720703, mae:0.6651862263679504
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_rain_1h_it0  
+mse:0.7084690928459167, mae:0.6062804460525513
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_rain_1h_it1  
+mse:0.6997146010398865, mae:0.6060360670089722
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_rain_1h_it2  
+mse:0.6908484101295471, mae:0.5960879325866699
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_rain_1h_it0  
+mse:0.7567748427391052, mae:0.628548264503479
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_rain_1h_it1  
+mse:0.7752677798271179, mae:0.659687340259552
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_rain_1h_it2  
+mse:0.7149319648742676, mae:0.6204480528831482
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_rain_1h_it0  
+mse:0.7677100896835327, mae:0.6394456028938293
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_rain_1h_it1  
+mse:0.6898536086082458, mae:0.6015267372131348
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_rain_1h_it2  
+mse:0.6924591660499573, mae:0.6014546155929565
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_rain_1h_it0  
+mse:0.8171573281288147, mae:0.6633720993995667
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_rain_1h_it1  
+mse:0.710218071937561, mae:0.6275758743286133
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_rain_1h_it2  
+mse:0.7289153337478638, mae:0.6274546980857849
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.7118592858314514, mae:0.614124596118927
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.7089871168136597, mae:0.6100645065307617
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.7237583994865417, mae:0.6220872402191162
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.7010310292243958, mae:0.6181674599647522
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.7435659170150757, mae:0.637580931186676
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.7695493102073669, mae:0.6495240926742554
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.7490785717964172, mae:0.627992570400238
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.7091364860534668, mae:0.6217858195304871
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.7116091847419739, mae:0.6241620779037476
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it0  
+mse:0.756633460521698, mae:0.6547779440879822
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it1  
+mse:0.7542416453361511, mae:0.6415823698043823
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_humidity_rain_1h_clouds_all_it2  
+mse:0.7633703947067261, mae:0.6465272307395935
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_it0  
+mse:0.695191502571106, mae:0.6109574437141418
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_it1  
+mse:0.735213041305542, mae:0.6361666321754456
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_it2  
+mse:0.685437798500061, mae:0.6093775033950806
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_it0  
+mse:0.7367475032806396, mae:0.6434123516082764
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_it1  
+mse:0.7708867788314819, mae:0.6559949517250061
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_it2  
+mse:0.7445945143699646, mae:0.6426487565040588
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_it0  
+mse:0.720428466796875, mae:0.6239441633224487
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_it1  
+mse:0.6950265765190125, mae:0.6006572246551514
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_it2  
+mse:0.756061851978302, mae:0.6448373794555664
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_it0  
+mse:0.7090812921524048, mae:0.6245030164718628
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_it1  
+mse:0.7508415579795837, mae:0.6438301205635071
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_it2  
+mse:0.7681964039802551, mae:0.6482831239700317
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_it0  
+mse:0.7306894659996033, mae:0.6183530688285828
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_it1  
+mse:0.7153759002685547, mae:0.6162600517272949
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_it2  
+mse:0.7065555453300476, mae:0.6075262427330017
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_it0  
+mse:0.7858029007911682, mae:0.6622325778007507
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_it1  
+mse:0.7199384570121765, mae:0.6245359778404236
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_it2  
+mse:0.7887792587280273, mae:0.6613439321517944
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_it0  
+mse:0.7233275771141052, mae:0.6169707775115967
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_it1  
+mse:0.7067919373512268, mae:0.6148598194122314
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_it2  
+mse:0.7133855223655701, mae:0.6146424412727356
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_it0  
+mse:0.8528971672058105, mae:0.6903085708618164
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_it1  
+mse:0.7842074632644653, mae:0.6691569089889526
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_it2  
+mse:0.7262343168258667, mae:0.6334349513053894
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_rain_1h_it0  
+mse:0.7319667339324951, mae:0.6223825812339783
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_rain_1h_it1  
+mse:0.7383990287780762, mae:0.6292782425880432
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_rain_1h_it2  
+mse:0.7312254905700684, mae:0.6223548054695129
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_rain_1h_it0  
+mse:0.7449262738227844, mae:0.6328306794166565
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_rain_1h_it1  
+mse:0.7351322174072266, mae:0.6335538029670715
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_rain_1h_it2  
+mse:0.7434276938438416, mae:0.6404374837875366
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_rain_1h_it0  
+mse:0.7133634090423584, mae:0.6106364130973816
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_rain_1h_it1  
+mse:0.7318553924560547, mae:0.6222962737083435
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_rain_1h_it2  
+mse:0.7008296251296997, mae:0.608754575252533
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_rain_1h_it0  
+mse:0.7411126494407654, mae:0.6385446190834045
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_rain_1h_it1  
+mse:0.745969831943512, mae:0.6400437355041504
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_rain_1h_it2  
+mse:0.8070052266120911, mae:0.6719918847084045
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_clouds_all_it0  
+mse:0.7143242955207825, mae:0.621527373790741
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_clouds_all_it1  
+mse:0.7354273796081543, mae:0.6246269941329956
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_clouds_all_it2  
+mse:0.720741868019104, mae:0.6185998320579529
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_clouds_all_it0  
+mse:0.7353160381317139, mae:0.6362429857254028
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_clouds_all_it1  
+mse:0.8175475597381592, mae:0.6727672815322876
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_clouds_all_it2  
+mse:0.8005509972572327, mae:0.6641804575920105
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_clouds_all_it0  
+mse:0.7536150217056274, mae:0.6314641237258911
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_clouds_all_it1  
+mse:0.7252081632614136, mae:0.6211598515510559
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_clouds_all_it2  
+mse:0.7550892233848572, mae:0.6302359700202942
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_clouds_all_it0  
+mse:0.7642018795013428, mae:0.657640278339386
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_clouds_all_it1  
+mse:0.7375467419624329, mae:0.6392416954040527
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_clouds_all_it2  
+mse:0.8740329742431641, mae:0.7015563249588013
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_it0  
+mse:0.712031364440918, mae:0.6153392195701599
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_it1  
+mse:0.7366615533828735, mae:0.6343599557876587
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_it2  
+mse:0.7075476050376892, mae:0.6065834164619446
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_it0  
+mse:0.7204074263572693, mae:0.6234859824180603
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_it1  
+mse:0.7508369088172913, mae:0.641729474067688
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_it2  
+mse:0.7338466644287109, mae:0.6343097686767578
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_it0  
+mse:0.7181138396263123, mae:0.6160748600959778
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_it1  
+mse:0.7301505208015442, mae:0.6244218945503235
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_it2  
+mse:0.6982094645500183, mae:0.6086339950561523
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_it0  
+mse:0.71418297290802, mae:0.6335412859916687
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_it1  
+mse:0.7383029460906982, mae:0.640245795249939
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_it2  
+mse:0.7136596441268921, mae:0.6202678680419922
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_rain_1h_it0  
+mse:0.7416988611221313, mae:0.6353750228881836
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_rain_1h_it1  
+mse:0.7005732655525208, mae:0.6108154058456421
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_rain_1h_it2  
+mse:0.7505785226821899, mae:0.6250143051147461
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_rain_1h_it0  
+mse:0.7519687414169312, mae:0.6425254344940186
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_rain_1h_it1  
+mse:0.757606565952301, mae:0.6561266183853149
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_rain_1h_it2  
+mse:0.7983641028404236, mae:0.6607902646064758
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_rain_1h_it0  
+mse:0.7111907601356506, mae:0.6091132760047913
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_rain_1h_it1  
+mse:0.727411687374115, mae:0.6277341842651367
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_rain_1h_it2  
+mse:0.699478030204773, mae:0.60674649477005
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_rain_1h_it0  
+mse:0.7960007190704346, mae:0.6645625233650208
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_rain_1h_it1  
+mse:0.7472608685493469, mae:0.6355157494544983
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_rain_1h_it2  
+mse:0.727564811706543, mae:0.6292746067047119
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_clouds_all_it0  
+mse:0.7239130735397339, mae:0.6225844621658325
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_clouds_all_it1  
+mse:0.7299055457115173, mae:0.6277875304222107
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_clouds_all_it2  
+mse:0.7186782360076904, mae:0.6235427856445312
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_clouds_all_it0  
+mse:0.7685748934745789, mae:0.6633604168891907
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_clouds_all_it1  
+mse:0.8105748891830444, mae:0.6804015636444092
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_clouds_all_it2  
+mse:0.8066806793212891, mae:0.6649637222290039
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_clouds_all_it0  
+mse:0.7122417092323303, mae:0.6113248467445374
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_clouds_all_it1  
+mse:0.713712215423584, mae:0.6170948147773743
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_clouds_all_it2  
+mse:0.7127209901809692, mae:0.6128275990486145
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_clouds_all_it0  
+mse:0.7851212024688721, mae:0.6486961245536804
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_clouds_all_it1  
+mse:0.8274487257003784, mae:0.6748002171516418
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_clouds_all_it2  
+mse:0.7012856006622314, mae:0.6207225322723389
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_rain_1h_it0  
+mse:0.719995379447937, mae:0.6188366413116455
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_rain_1h_it1  
+mse:0.7587100267410278, mae:0.6375563740730286
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_rain_1h_it2  
+mse:0.7140242457389832, mae:0.6164302825927734
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_rain_1h_it0  
+mse:0.707915186882019, mae:0.620915949344635
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_rain_1h_it1  
+mse:0.7722227573394775, mae:0.6485934257507324
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_rain_1h_it2  
+mse:0.7929655313491821, mae:0.6655781865119934
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_rain_1h_it0  
+mse:0.719944417476654, mae:0.6163272261619568
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_rain_1h_it1  
+mse:0.7272976636886597, mae:0.6151924133300781
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_rain_1h_it2  
+mse:0.7286087274551392, mae:0.6249339580535889
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_rain_1h_it0  
+mse:0.7317653298377991, mae:0.6335156559944153
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_rain_1h_it1  
+mse:0.7407353520393372, mae:0.6384652256965637
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_rain_1h_it2  
+mse:0.8122148513793945, mae:0.6731973886489868
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_clouds_all_it0  
+mse:0.733947217464447, mae:0.6243994832038879
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_clouds_all_it1  
+mse:0.7257992029190063, mae:0.6209965348243713
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_clouds_all_it2  
+mse:0.755263090133667, mae:0.6304365396499634
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_clouds_all_it0  
+mse:0.7305247783660889, mae:0.6319968104362488
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_clouds_all_it1  
+mse:0.8885689377784729, mae:0.7061877250671387
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_clouds_all_it2  
+mse:0.7929157614707947, mae:0.6550037860870361
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_clouds_all_it0  
+mse:0.7777308821678162, mae:0.6416776776313782
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_clouds_all_it1  
+mse:0.77534419298172, mae:0.6404815912246704
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_clouds_all_it2  
+mse:0.7158311605453491, mae:0.6199631094932556
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_clouds_all_it0  
+mse:0.7737045288085938, mae:0.6527026295661926
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_clouds_all_it1  
+mse:0.7586341500282288, mae:0.6423640847206116
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_clouds_all_it2  
+mse:0.7748487591743469, mae:0.657842218875885
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_rain_1h_clouds_all_it0  
+mse:0.745953381061554, mae:0.6248757243156433
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_rain_1h_clouds_all_it1  
+mse:0.7204639315605164, mae:0.6144955158233643
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_rain_1h_clouds_all_it2  
+mse:0.7643260359764099, mae:0.6400938034057617
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_rain_1h_clouds_all_it0  
+mse:0.777941107749939, mae:0.6561211943626404
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_rain_1h_clouds_all_it1  
+mse:0.7833479046821594, mae:0.6551904678344727
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_rain_1h_clouds_all_it2  
+mse:0.8007039427757263, mae:0.6656334400177002
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_rain_1h_clouds_all_it0  
+mse:0.7325795888900757, mae:0.6186357736587524
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_rain_1h_clouds_all_it1  
+mse:0.7298248410224915, mae:0.6203067302703857
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_rain_1h_clouds_all_it2  
+mse:0.753314197063446, mae:0.6358092427253723
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_rain_1h_clouds_all_it0  
+mse:0.7593901753425598, mae:0.6508195996284485
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_rain_1h_clouds_all_it1  
+mse:0.770148754119873, mae:0.6553811430931091
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_rain_1h_clouds_all_it2  
+mse:0.8410063982009888, mae:0.683096706867218
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_wind_speed_it0  
+mse:0.7084061503410339, mae:0.6140355467796326
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_wind_speed_it1  
+mse:0.6917774677276611, mae:0.6053507328033447
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_wind_speed_it2  
+mse:0.7066130638122559, mae:0.6184803247451782
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_wind_speed_it0  
+mse:0.754965603351593, mae:0.6554585695266724
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_wind_speed_it1  
+mse:0.730823814868927, mae:0.6280879974365234
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_wind_speed_it2  
+mse:0.7252825498580933, mae:0.6308873891830444
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_wind_speed_it0  
+mse:0.6844730973243713, mae:0.6011443734169006
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_wind_speed_it1  
+mse:0.7508534789085388, mae:0.6395997405052185
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_wind_speed_it2  
+mse:0.6709445714950562, mae:0.6013336777687073
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_wind_speed_it0  
+mse:0.7570784687995911, mae:0.6460947394371033
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_wind_speed_it1  
+mse:0.74221271276474, mae:0.6327852010726929
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_wind_speed_it2  
+mse:0.718526303768158, mae:0.6215602159500122
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_rain_1h_it0  
+mse:0.7232915759086609, mae:0.6218003630638123
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_rain_1h_it1  
+mse:0.7124113440513611, mae:0.6211084723472595
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_rain_1h_it2  
+mse:0.7017415165901184, mae:0.6120608448982239
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_rain_1h_it0  
+mse:0.721121609210968, mae:0.6348593831062317
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_rain_1h_it1  
+mse:0.7470128536224365, mae:0.6392120122909546
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_rain_1h_it2  
+mse:0.7346860766410828, mae:0.6342217922210693
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_rain_1h_it0  
+mse:0.7304363250732422, mae:0.6368950605392456
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_rain_1h_it1  
+mse:0.7094922065734863, mae:0.6176539659500122
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_rain_1h_it2  
+mse:0.7095661759376526, mae:0.6173993349075317
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_rain_1h_it0  
+mse:0.800831139087677, mae:0.6701791286468506
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_rain_1h_it1  
+mse:0.7444480657577515, mae:0.6418766379356384
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_rain_1h_it2  
+mse:0.73874831199646, mae:0.6376299262046814
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_clouds_all_it0  
+mse:0.7225586175918579, mae:0.6251766681671143
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_clouds_all_it1  
+mse:0.6870266795158386, mae:0.6102855205535889
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_humidity_clouds_all_it2  
+mse:0.7331516742706299, mae:0.6243073344230652
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_clouds_all_it0  
+mse:0.7610871195793152, mae:0.6535853743553162
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_clouds_all_it1  
+mse:0.7289336323738098, mae:0.6316174864768982
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_humidity_clouds_all_it2  
+mse:0.7830188870429993, mae:0.6653626561164856
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_clouds_all_it0  
+mse:0.710797131061554, mae:0.6216530799865723
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_clouds_all_it1  
+mse:0.712776243686676, mae:0.6199054718017578
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_humidity_clouds_all_it2  
+mse:0.705151379108429, mae:0.6115203499794006
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_clouds_all_it0  
+mse:0.8577756881713867, mae:0.6887664198875427
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_clouds_all_it1  
+mse:0.8053401708602905, mae:0.6595105528831482
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_humidity_clouds_all_it2  
+mse:0.7105714678764343, mae:0.6178339719772339
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_rain_1h_it0  
+mse:0.7074319124221802, mae:0.609980583190918
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_rain_1h_it1  
+mse:0.7215521931648254, mae:0.6239808797836304
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_rain_1h_it2  
+mse:0.746059238910675, mae:0.6269897222518921
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_rain_1h_it0  
+mse:0.7226912379264832, mae:0.6259516477584839
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_rain_1h_it1  
+mse:0.7707276940345764, mae:0.6471049785614014
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_rain_1h_it2  
+mse:0.8071369528770447, mae:0.6566596031188965
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_rain_1h_it0  
+mse:0.7292855978012085, mae:0.6252000331878662
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_rain_1h_it1  
+mse:0.7383619546890259, mae:0.6354852914810181
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_rain_1h_it2  
+mse:0.7332302331924438, mae:0.6217352747917175
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_rain_1h_it0  
+mse:0.7218742370605469, mae:0.628835916519165
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_rain_1h_it1  
+mse:0.7881131768226624, mae:0.6536908745765686
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_rain_1h_it2  
+mse:0.7469578981399536, mae:0.6383852362632751
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_clouds_all_it0  
+mse:0.7205714583396912, mae:0.624362051486969
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_clouds_all_it1  
+mse:0.7303896546363831, mae:0.626163899898529
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_wind_speed_clouds_all_it2  
+mse:0.7195113301277161, mae:0.6213935017585754
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_clouds_all_it0  
+mse:0.7132701277732849, mae:0.6194446086883545
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_clouds_all_it1  
+mse:0.7175225615501404, mae:0.6264699697494507
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_wind_speed_clouds_all_it2  
+mse:0.731658399105072, mae:0.6282402873039246
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_clouds_all_it0  
+mse:0.7442032098770142, mae:0.6350995302200317
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_clouds_all_it1  
+mse:0.7121989130973816, mae:0.6135068535804749
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_wind_speed_clouds_all_it2  
+mse:0.7123752236366272, mae:0.614340603351593
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_clouds_all_it0  
+mse:0.7448976039886475, mae:0.643570601940155
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_clouds_all_it1  
+mse:0.7870152592658997, mae:0.6694689989089966
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_wind_speed_clouds_all_it2  
+mse:0.7149264812469482, mae:0.6270948052406311
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_rain_1h_clouds_all_it0  
+mse:0.7191991209983826, mae:0.6142539978027344
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_rain_1h_clouds_all_it1  
+mse:0.7211121320724487, mae:0.6204867362976074
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_temp_rain_1h_clouds_all_it2  
+mse:0.7267913818359375, mae:0.6192679405212402
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_rain_1h_clouds_all_it0  
+mse:0.7272560596466064, mae:0.6331878900527954
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_rain_1h_clouds_all_it1  
+mse:0.7524481415748596, mae:0.6505298614501953
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_temp_rain_1h_clouds_all_it2  
+mse:0.7520023584365845, mae:0.6452252268791199
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_rain_1h_clouds_all_it0  
+mse:0.7433187961578369, mae:0.6285272836685181
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_rain_1h_clouds_all_it1  
+mse:0.7362005710601807, mae:0.6276789903640747
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_temp_rain_1h_clouds_all_it2  
+mse:0.712427020072937, mae:0.6158100962638855
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_rain_1h_clouds_all_it0  
+mse:0.8069692254066467, mae:0.6723536252975464
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_rain_1h_clouds_all_it1  
+mse:0.7259633541107178, mae:0.6304388046264648
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_temp_rain_1h_clouds_all_it2  
+mse:0.7466012835502625, mae:0.6388978362083435
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_rain_1h_it0  
+mse:0.6952669620513916, mae:0.6091389656066895
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_rain_1h_it1  
+mse:0.713223934173584, mae:0.6192867755889893
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_rain_1h_it2  
+mse:0.70989590883255, mae:0.6082695722579956
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_rain_1h_it0  
+mse:0.7270070314407349, mae:0.6367001533508301
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_rain_1h_it1  
+mse:0.7562611699104309, mae:0.6505943536758423
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_rain_1h_it2  
+mse:0.7248899340629578, mae:0.6262047290802002
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_rain_1h_it0  
+mse:0.6908499002456665, mae:0.606583297252655
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_rain_1h_it1  
+mse:0.6887578368186951, mae:0.6086148619651794
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_rain_1h_it2  
+mse:0.7090408205986023, mae:0.6085230708122253
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_rain_1h_it0  
+mse:0.7360089421272278, mae:0.6396352648735046
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_rain_1h_it1  
+mse:0.7934916615486145, mae:0.6666223406791687
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_rain_1h_it2  
+mse:0.7255278825759888, mae:0.626671314239502
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_clouds_all_it0  
+mse:0.7302857041358948, mae:0.6216485500335693
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_clouds_all_it1  
+mse:0.7270870804786682, mae:0.618699848651886
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_wind_speed_clouds_all_it2  
+mse:0.7092034816741943, mae:0.6106307506561279
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_clouds_all_it0  
+mse:0.7611355781555176, mae:0.6533433794975281
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_clouds_all_it1  
+mse:0.7651273608207703, mae:0.6505865454673767
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_wind_speed_clouds_all_it2  
+mse:0.7928051948547363, mae:0.6575540900230408
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_clouds_all_it0  
+mse:0.6925806403160095, mae:0.6048051714897156
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_clouds_all_it1  
+mse:0.7032729983329773, mae:0.609049916267395
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_wind_speed_clouds_all_it2  
+mse:0.7164148688316345, mae:0.6152468323707581
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_clouds_all_it0  
+mse:0.7444676756858826, mae:0.6459214091300964
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_clouds_all_it1  
+mse:0.7771345973014832, mae:0.6643044948577881
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_wind_speed_clouds_all_it2  
+mse:0.7251245379447937, mae:0.6243316531181335
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_rain_1h_clouds_all_it0  
+mse:0.7528582215309143, mae:0.6394472718238831
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_rain_1h_clouds_all_it1  
+mse:0.720670759677887, mae:0.6189640760421753
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_humidity_rain_1h_clouds_all_it2  
+mse:0.7154190540313721, mae:0.6132217645645142
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_rain_1h_clouds_all_it0  
+mse:0.7867637872695923, mae:0.6656178832054138
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_rain_1h_clouds_all_it1  
+mse:0.7619550824165344, mae:0.659122109413147
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_humidity_rain_1h_clouds_all_it2  
+mse:0.7469146251678467, mae:0.6362708210945129
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_rain_1h_clouds_all_it0  
+mse:0.7719888091087341, mae:0.6401122212409973
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_rain_1h_clouds_all_it1  
+mse:0.7305624485015869, mae:0.62493497133255
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_humidity_rain_1h_clouds_all_it2  
+mse:0.715308666229248, mae:0.6146489381790161
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_rain_1h_clouds_all_it0  
+mse:0.7932998538017273, mae:0.6606051921844482
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_rain_1h_clouds_all_it1  
+mse:0.7271288633346558, mae:0.623641312122345
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_humidity_rain_1h_clouds_all_it2  
+mse:0.7300527691841125, mae:0.6344295144081116
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_rain_1h_clouds_all_it0  
+mse:0.7078185677528381, mae:0.6089634299278259
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_rain_1h_clouds_all_it1  
+mse:0.7204000949859619, mae:0.6161156296730042
+
+AutoFormer_sl96_ll48_pl96_f0_w1_ev_wind_speed_rain_1h_clouds_all_it2  
+mse:0.7622970342636108, mae:0.6366913318634033
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_rain_1h_clouds_all_it0  
+mse:0.7268393039703369, mae:0.6284648180007935
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_rain_1h_clouds_all_it1  
+mse:0.7728243470191956, mae:0.6556897759437561
+
+AutoFormer_sl96_ll48_pl96_f0_w0_ev_wind_speed_rain_1h_clouds_all_it2  
+mse:0.7810012698173523, mae:0.6595266461372375
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_rain_1h_clouds_all_it0  
+mse:0.8142070770263672, mae:0.6668986082077026
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_rain_1h_clouds_all_it1  
+mse:0.7594912648200989, mae:0.6462907791137695
+
+AutoFormer_sl96_ll48_pl96_f1_w1_ev_wind_speed_rain_1h_clouds_all_it2  
+mse:0.7183020710945129, mae:0.617330014705658
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_rain_1h_clouds_all_it0  
+mse:0.7480696439743042, mae:0.6420565247535706
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_rain_1h_clouds_all_it1  
+mse:0.7285445332527161, mae:0.6296759247779846
+
+AutoFormer_sl96_ll48_pl96_f1_w0_ev_wind_speed_rain_1h_clouds_all_it2  
+mse:0.7434342503547668, mae:0.6402373909950256
 

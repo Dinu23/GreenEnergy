@@ -19,9 +19,11 @@ def data_provider(args, flag):
         flag=flag,
         size=[args.seq_len, args.label_len, args.pred_len],
         freq=freq,
+        external_var = args.external_var,
         use_weights=args.use_weights,
         weights_path=os.path.join(args.root_path,f"weights/weights_{args.seq_len}_{args.label_len}_{args.pred_len}.npy"),
-        load_weights=args.load_weights
+        load_weights=args.load_weights,
+        future = args.future
     )
     print(flag, len(data_set))
     data_loader = DataLoader(

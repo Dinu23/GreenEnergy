@@ -94,6 +94,10 @@ class My_Exp_Main(Exp_Basic):
                 pred = outputs.detach().cpu()
                 true = batch_y.detach().cpu()
 
+                pred = pred[:,:,:7]
+                true = true[:,:,:7]
+                batch_weights = batch_weights[:,:7]
+
                 loss = criterion(pred, true, batch_weights)
 
                 total_loss.append(loss)
@@ -129,6 +133,7 @@ class My_Exp_Main(Exp_Basic):
             epoch_time = time.time()
             for i, (batch_x, batch_y, batch_x_mark, batch_y_mark, batch_weights) in enumerate(train_loader):
                 iter_count += 1
+                
                 model_optim.zero_grad()
                 batch_x = batch_x.float().to(self.device)
 
@@ -137,7 +142,10 @@ class My_Exp_Main(Exp_Basic):
                 batch_y_mark = batch_y_mark.float().to(self.device)
                 batch_weights = batch_weights.float().to(self.device)
                 outputs, batch_y = self._predict(batch_x, batch_y, batch_x_mark, batch_y_mark)
-            
+
+                outputs = outputs[:,:,:7]
+                batch_y = batch_y[:,:,:7]
+                batch_weights = batch_weights[:,:7]
 
                 loss = criterion(outputs, batch_y, batch_weights)
                 train_loss.append(loss.item())
@@ -188,7 +196,7 @@ class My_Exp_Main(Exp_Basic):
         folder_path = './test_results/' + setting + '/'
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
-
+        lasts = [self.args.c_out - i for i in range(1,len(self.args.external_var))] 
         self.model.eval()
         with torch.no_grad():
             for i, (batch_x, batch_y, batch_x_mark, batch_y_mark, batch_weights) in enumerate(test_loader):
@@ -203,9 +211,11 @@ class My_Exp_Main(Exp_Basic):
                 outputs = outputs.detach().cpu().numpy()
                 batch_y = batch_y.detach().cpu().numpy()
 
-                pred = outputs  # outputs.detach().cpu().numpy()  # .squeeze()
-                true = batch_y  # batch_y.detach().cpu().numpy()  # .squeeze()
-
+                pred = outputs#.detach().cpu().numpy()  # .squeeze()
+                true = batch_y#.detach().cpu().numpy()  # .squeeze()
+                pred = pred[:,:,:7]
+                true = true[:,:,:7]
+                
                 preds.append(pred)
                 trues.append(true)
                 if i % 20 == 0:

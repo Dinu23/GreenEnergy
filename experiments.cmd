@@ -1,0 +1,1 @@
+python run.py --enc_in 8 --dec_in 8 --c_out 8 --use_weights 1 --future 1 --external_var temp 
